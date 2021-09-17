@@ -1,15 +1,15 @@
 
 ## Fizzbuzz
 
-def fizzbuzz(length, first, second):
+def fizzbuzz(length):
 
     output = ""
 
     for i in range(1,length+1):
         output += str(i)+": "
-        if not i % first:
+        if not i % 3:
             output += "fizz"
-        if not (i % second):
+        if not (i % 5):
             output += "buzz"
         output += "\n" 
 
