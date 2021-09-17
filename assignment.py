@@ -1,5 +1,6 @@
 
 ## Fizzbuzz
+## Comments are cool!
 
 def fizzbuzz(length, first, second, word1, word2):
 
